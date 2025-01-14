@@ -86,6 +86,13 @@ const ListaVerificacion = () => {
                             }}
                           />
                           <Radio 
+                            value="cumple_parcialmente" 
+                            label="Cumple Parcialmente"
+                            classNames={{
+                              label: 'radio-label',
+                            }}
+                          />
+                          <Radio 
                             value="no_cumple" 
                             label="No Cumple"
                             classNames={{
