@@ -1,0 +1,27 @@
+.documentos {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.documentos-content {
+    margin-left: 60px;
+    margin-top: 70px;
+    padding: 24px 40px;
+}
+
+.action-icon {
+    color: #D94A3D;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.action-icon:hover {
+    transform: translateX(3px);
+}
+
+@media (max-width: 768px) {
+    .documentos-content {
+        margin-left: 0;
+        padding: 16px;
+    }
+} 

@@ -1,0 +1,17 @@
+.subir-documento {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.documento-content {
+    margin-left: 280px;
+    margin-top: 80px;
+    padding: 24px 40px;
+}
+
+@media (max-width: 768px) {
+    .documento-content {
+        margin-left: 0;
+        padding: 16px;
+    }
+} 
