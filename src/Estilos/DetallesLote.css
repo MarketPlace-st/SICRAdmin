@@ -1,0 +1,49 @@
+.detalles-lote {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.lote-content {
+    margin-left: 280px;
+    margin-top: 80px;
+    padding: 24px 40px;
+}
+
+.content-header {
+    margin-bottom: 24px;
+}
+
+.info-section {
+    background: white;
+}
+
+/* Estilos para la tabla */
+.info-section table {
+    width: 100%;
+}
+
+.info-section td {
+    padding: 8px 0;
+}
+
+.info-section td:first-child {
+    width: 200px;
+    color: #495057;
+}
+
+@media (max-width: 768px) {
+    .lote-content {
+        margin-left: 0;
+        padding: 16px;
+    }
+
+    .info-section td {
+        display: block;
+        width: 100%;
+    }
+
+    .info-section td:first-child {
+        width: 100%;
+        margin-bottom: 4px;
+    }
+} 
