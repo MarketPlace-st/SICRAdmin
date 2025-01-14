@@ -1,0 +1,27 @@
+.lotes {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.lotes-content {
+    margin-left: 60px;
+    margin-top: 70px;
+    padding: 24px 40px;
+}
+
+.lotes .action-icon {
+    color: #D94A3D;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.lotes .action-icon:hover {
+    transform: translateX(3px);
+}
+
+@media (max-width: 768px) {
+    .lotes-content {
+        margin-left: 0;
+        padding: 16px;
+    }
+} 
