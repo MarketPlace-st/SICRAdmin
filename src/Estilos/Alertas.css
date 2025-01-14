@@ -1,0 +1,46 @@
+.alertas {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.alertas-header {
+    margin-left: 280px;
+    margin-top: 60px;
+    padding: 24px 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fecha-column {
+    width: 150px;
+}
+
+.tipo-column {
+    width: 200px;
+}
+
+.establecimiento-column {
+    flex: 1;
+}
+
+.estado-badge {
+    width: 100px;
+    text-align: center;
+}
+
+.action-icon {
+    color: #D94A3D;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.action-icon:hover {
+    transform: translateX(3px);
+}
+
+@media (max-width: 768px) {
+    .alertas-header {
+        margin-left: 0;
+        padding: 16px;
+    }
+} 
