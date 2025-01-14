@@ -26,6 +26,19 @@ import InspeccionesPendientes from './Pages/InspeccionesPendientes';
 import InspeccionCreada from './Pages/InspeccionCreada';
 import Login from './Pages/Login';
 import MiPerfil from './Pages/MiPerfil';
+import Documentos from './Pages/Documentos';
+import Lotes from './Pages/Lotes';
+import DetallesLote from './Pages/DetallesLote';
+import DetalleDocumento from './Pages/DetalleDocumento';
+import SubirDocumento from './Pages/SubirDocumento';
+import Normativas from './Pages/Normativas';
+import CrearNormativa from './Pages/CrearNormativa';
+import EditarNormativa from './Pages/EditarNormativa';
+import DetallesLista from './Pages/DetallesLista';
+import Alertas from './Pages/Alertas';
+import DetalleAlerta from './Pages/DetalleAlerta';
+import CrearAlerta from './Pages/CrearAlerta';
+import EditarAlerta from './Pages/EditarAlerta';
 
 
 function App() {
@@ -70,6 +83,19 @@ function App() {
               <Route path="/establecimientos/pendientes" element={<InspeccionesPendientes />} />
               <Route path="/inspecciones/:id/asignar" element={<InspeccionCreada />} />
               <Route path="/mi-perfil" element={<MiPerfil />} />
+              <Route path="/documentos" element={<Documentos />} />
+              <Route path="/documentos/:id" element={<DetalleDocumento />} />
+              <Route path="/documentos/:id/nuevo" element={<SubirDocumento />} />
+              <Route path="/lotes" element={<Lotes />} />
+              <Route path="/lotes/:id" element={<DetallesLote />} />
+              <Route path="/normativas" element={<Normativas />} />
+              <Route path="/normativas/nueva" element={<CrearNormativa />} />
+              <Route path="/normativas/:id/editar" element={<EditarNormativa />} />
+              <Route path="/normativas/:normativaId/listas/:listaId" element={<DetallesLista />} />
+              <Route path="/alertas" element={<Alertas />} />
+              <Route path="/alertas/:id" element={<DetalleAlerta />} />
+              <Route path="/alertas/nueva" element={<CrearAlerta />} />
+              <Route path="/alertas/:id/editar" element={<EditarAlerta />} />
             </Routes>
           </div>
         </div>

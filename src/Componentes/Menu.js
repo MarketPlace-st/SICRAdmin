@@ -10,7 +10,11 @@ import {
   IconGavel,
   IconUsers,
   IconLogout,
-  IconChevronRight
+  IconChevronRight,
+  IconFiles,
+  IconPackage,
+  IconClipboard,
+  IconAlertTriangle
 } from '@tabler/icons-react';
 import '../Estilos/Menu.css';
 
@@ -61,8 +65,12 @@ const Menu = () => {
       ]
     },
     { icon: <IconClipboardList />, text: 'Inspecciones', to: '/inspecciones' },
+    { icon: <IconPackage />, text: 'Lotes de Productos', to: '/lotes' },
     { icon: <IconChartBar />, text: 'Resultados', to: '/resultados' },
     { icon: <IconGavel />, text: 'Sanciones', to: '/sanciones' },
+    { icon: <IconFiles />, text: 'Documentos', to: '/documentos' },
+    { icon: <IconClipboard />, text: 'Normativas', to: '/normativas' },
+    { icon: <IconAlertTriangle />, text: 'Alertas', to: '/alertas' },
   ];
 
   return (
