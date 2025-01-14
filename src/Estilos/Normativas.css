@@ -1,0 +1,43 @@
+.normativas {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.normativas-content {
+    margin-left: 280px;
+    margin-top: 60px;
+    padding: 20px 40px;
+}
+
+.normativas-list {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.normativas-list .mantine-Paper-root {
+    transition: all 0.2s ease;
+}
+
+.normativas-list .mantine-Paper-root:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.action-icon {
+    color: #D94A3D;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.action-icon:hover {
+    transform: translateX(3px);
+}
+
+@media (max-width: 768px) {
+    .normativas-content {
+        margin-left: 0;
+        padding: 16px;
+    }
+} 
